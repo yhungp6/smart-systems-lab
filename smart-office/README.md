@@ -48,6 +48,47 @@ This project is part of a long-term journey toward robotics engineering and inte
 - Blender (Planned)
 - Robotics simulation tools (Planned)
 
+---
+
+## Project phases
+
+# Phase 1 - web-based Control system
+**Status:** Completed and Refined
+- Flask-based backend
+- Web UI for controlling office devices
+- Rule-free, direct user control
+- Focus on sytem structure, routing and UI interaction
+
+`phase-1-control/`
+
+---
+
+# Phase 2 - Rule-based intelligence engine
+**Status:** Conpleted
+- Introduces decision-making logic
+- Device respond automatically based on defined rules
+- Seperate intelligence from UI
+- Simulates smart behaviour rather than manual control
+
+`phase2-intelligence/`
+
+---
+
+## Why This Project Matters
+Rather than building a single demo app, this project is designed as a **scalable system**:
+- Each phase adds intelligence and complexity
+- Previous phases remain intact
+- Design decisions reflect real-world engineering workflows
+
+---
+
+## Future Roadmap
+Planned next steps include:
+- Phase 3: Visualization & monitoring dashboards
+- Phase 4: 3D simulation and animation of system behavior
+
+---
+
 ## Project Structure
 
 smart-office/
@@ -72,12 +113,6 @@ smart-office/
 
 ## Author
 
-Osae Paul
-National Service Personnel at Mobile Web Ghana
-
-
-
-git status                 # see what changed
-git add README.md          # stage one file
-git commit -m "message"    # save it
-git push origin main       # upload
+**Osae Paul**
+National Service Personnel - Mobile Web Ghana
+Aspiring Robotics & Intelligent Systems Engineer
