@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for( 'static', filename='style.css' ) }}">
+    <title>Smart Office Control System</title>
+</head>
+<body>
+    <h1>Smart Office Control & Visualization System</h1>
+
+    <div class="device">
+        <span>Light</span>
+        <label class="switch" >
+            <input type="checkbox" id="light-switch" onchange="toggleDevice('light')">
+            <span class="slider"></span>
+        </label>
+        <span id="light-status">OFF</span>
+    </div>
+
+    <div class="device">
+        <span>Fan</span>
+        <label class="switch">
+            <input type="checkbox" id="fan-switch" onchange="toggleDevice('fan')">
+            <span class="slider"></span>
+        </label>
+        <span id="fan-status">OFF</span>
+    </div>
+
+    <div class="device">
+        <span>Door</span>
+        
+        <span id="door-status">CLOSED</span>
+    </div>
+
+
+
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
